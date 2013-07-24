@@ -1,3 +1,10 @@
+# node-ftpd
+I found myself with a need to script an FTP layer over another service, so I'm reviving this codebase. Original readme below; current iteration is ALPHA
+
+
+===============================================================
+
+
 [![Build Status](https://secure.travis-ci.org/naholyr/node-ftp-server.png)](http://travis-ci.org/naholyr/node-ftp-server)
 
 # FTP Server -- Simple featureless FTP server
