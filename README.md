@@ -1,5 +1,14 @@
 # node-ftpd
-I found myself with a need to script an FTP layer over another service, so I'm reviving this codebase. Original readme below; current iteration is ALPHA
+I found myself with a need to script an FTP layer over another service, so I'm reviving this codebase.
+
+## Goals
+
+* Structure and usage in line with node-core servers
+* modular backends
+* extensive test suite
+
+
+Original readme below; current iteration is ALPHA
 
 
 ===============================================================
