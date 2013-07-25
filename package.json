@@ -1,24 +1,31 @@
 {
-  "author": "Nicolas Chambrier <naholyr@gmail.com> (http://naholyr.fr)",
-  "name": "ftp-server",
-  "description": "Featureless FTP server",
-  "version": "0.1.0",
-  "homepage": "https://github.com/naholyr/node-ftp-server",
+  "author": "Thomas Hunkapiller <tom@mostlyserious.io> (http://furycodes.com/)",
+  "name": "ftpd",
+  "description": "Basic FTP server",
+  "version": "0.0.1",
+  "homepage": "https://github.com/devoidfury/node-ftpd",
   "repository": {
     "type": "git",
-    "url": "git://github.com/naholyr/node-ftp-server.git"
+    "url": "git://github.com/devoidfury/node-ftpd.git"
   },
-  "main": "lib/ftpd.js",
+  "main": "lib/index.js",
   "engines": {
-    "node": ">= 0.4"
+    "node": ">= 0.8"
   },
-  "dependencies": {},
+  "dependencies": {
+    "xtend": "2.0.6"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "node test"
   },
+  "contributors": [
+      "Thomas Hunkapiller <tom@mostlyserious.io> (http://furycodes.com/)",
+      "Nicolas Chambrier <naholyr@gmail.com> (http://naholyr.fr)",
+      "Andrew Johnston <apjohnsto@gmail.com> (http://www.devknowledge.com/)"
+  ],
   "license": {
     "type": "MIT",
-    "url": "https://raw.github.com/naholyr/node-ftp-server/master/LICENSE"
+    "url": "https://raw.github.com/devoidfury/node-ftpd/master/LICENSE"
   }
 }
